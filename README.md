@@ -2,12 +2,14 @@
 The goal of lihkg-crawler is to provide a simplier and easier crawling tool to scrape data from Lihkg, a popluar forum in Hong Kong.
 
 ## Installation
-Register command by executing `sudo npm link` at the root of the repostiroy. After registered, you can be able to access application with `lihkg-crawler` with command. You can find more information by `lihkg-crawler --help` or `lihkg-crawler -h`.
+Installing by `sudo npm link lihkg-crawler`.
 
-Please make suer your have `node` installed
+After installation, you will be able to access application with `lihkg-crawler` command. You can find more information by `lihkg-crawler --help` or `lihkg-crawler -h`.
+
+*Please make suer your have `node` installed ahead*
 
 ## Example of Use(s)
-Application only support crawled by thread currently.
+Application only support crawling by thread currently.
 
 Crawl by thread: `lihkg-crawler thread <thread>`
 ```json
