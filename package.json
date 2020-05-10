@@ -1,0 +1,17 @@
+{
+  "name": "lihkg-crawler",
+  "version": "1.0.0",
+  "description": "Lihkg Web Crawler",
+  "keywords": [
+    "crawler",
+    "lihkg"
+  ],
+  "author": "kavv",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "puppeteer": "^3.0.4"
+  },
+  "preferGlobal": true,
+  "bin": "./lihkg-crawler.js"
+}
