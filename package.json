@@ -13,5 +13,9 @@
     "puppeteer": "^3.0.4"
   },
   "preferGlobal": true,
-  "bin": "./lihkg-crawler.js"
+  "bin": "./lihkg-crawler.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kavv-hub/lihkg-crawler.git"
+  }
 }
