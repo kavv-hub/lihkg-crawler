@@ -65,7 +65,7 @@ function pickThreadProperty(response) {
             max_reply,
             total_page,
             category: category.name,
-            sub_category: sub_category.name,
+            sub_category: sub_category ? sub_category.name : null,
             author: pickUserProperty(user),
             posts: {}
         })
